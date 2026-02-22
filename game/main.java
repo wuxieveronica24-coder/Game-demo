@@ -1,6 +1,7 @@
-public class void{
-    String user_name;
-    user_name = "jane doe";
-
-    System.out.println(user_name);
+Public class Main{
+    Public static void main(String[] args){
+        String user_name = "Jane Doe";
+        System.out.println(user_name);
+        
+    }
 }
