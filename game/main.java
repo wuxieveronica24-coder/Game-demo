@@ -1,7 +1,6 @@
-public class the_main
-{
-    String user_name = "Jane Doe";
+public class void{
+    String user_name;
+    user_name = "jane doe";
 
-    print(user_name)
-
-} 
+    System.out.println(user_name);
+}
