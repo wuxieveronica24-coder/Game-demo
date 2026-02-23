@@ -17,7 +17,8 @@ public class Main{
     }
 }
 
-# complete with help from stack overflow 
+// complete with help from stack overflow 
+
 public static void slow_print(String whatever, TimeUnit unit, long time_take){
     for (char c: output.toCharArray()){
         System.out.println(c);
