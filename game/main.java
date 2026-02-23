@@ -19,7 +19,7 @@ public class Main{
 
 // complete with help from stack overflow 
 
-public slow_print(String whatever, TimeUnit unit, long time_take){
+public static void slow_print(String whatever, TimeUnit unit, long time_take) throws InterruptedException {
     for (char c: output.toCharArray()){
         System.out.println(c);
         unit.sleep(time_take);
