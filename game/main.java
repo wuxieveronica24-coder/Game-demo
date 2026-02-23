@@ -9,10 +9,17 @@ public class Main{
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("loading .........");
-
+        slow_print("loading .........",TimeUnit.MILLISECONDS, 100);
         System.out.println("Enter the name you wish to have: ");
         user_name = scanner.nextLine();
         System.out.println(user_name);
 
+    }
+}
+
+public static void slow_print(String whatever, TimeUnit unit, long time_take){
+    for (char c: output.toCharArray()){
+        System.out.println(c);
+        unit.sleep(time_take);
     }
 }
