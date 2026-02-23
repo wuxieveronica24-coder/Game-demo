@@ -7,22 +7,25 @@ public class Main{
     public static void main(String[] args) throws Exception {
         String user_name;
         Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("loading .........");
+
         slow_print("loading .........",TimeUnit.MILLISECONDS, 100);
-        System.out.println("Enter the name you wish to have: ");
+        String long_mes = "Today you become an honorable officer at New Seattle Police Dapartment."
+        slow_print(long_mes,TimeUnit.MILLISECONDS, 100);
+        System.out.println("What is your name? Officer ");
         user_name = scanner.nextLine();
         System.out.println(user_name);
 
     }
 
 // complete with help from stack overflow 
-
+// intend to slow print on the same line 
     public static void slow_print(String whatever, TimeUnit unit, long time_take) throws InterruptedException {
         for (char c: whatever.toCharArray()){
             System.out.print(c);
             unit.sleep(time_take);
         }
+        // println cause print in new line
+        // print cause print in same line 
         System.out.println("\n");
     }
 }
