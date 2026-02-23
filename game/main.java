@@ -13,7 +13,7 @@ public class Main{
         slow_print(long_mes,TimeUnit.MILLISECONDS, 100);
         System.out.println("What is your name? Officer ");
         user_name = scanner.nextLine();
-        System.out.println("Welcome Officer",user_name);
+        System.out.println("Welcome Officer " + user_name);
 
     }
 
