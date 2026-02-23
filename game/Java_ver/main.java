@@ -13,6 +13,7 @@ public class Main{
         slow_print(long_mes,TimeUnit.MILLISECONDS, 50);
         System.out.println("What is your name? Officer ");
         user_name = scanner.nextLine();
+        // combine two string using concat though I don't need to
         System.out.println("\nWelcome, Officer ".concat(user_name) + ".");
 
     }
