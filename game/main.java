@@ -15,13 +15,14 @@ public class Main{
         System.out.println(user_name);
 
     }
-}
 
 // complete with help from stack overflow 
 
-public String slow_print(String whatever, TimeUnit unit, long time_take) throws InterruptedException {
-    for (char c: whatever.toCharArray()){
-        System.out.println(c);
-        unit.sleep(time_take);
+    public static slow_print(String whatever, TimeUnit unit, long time_take) throws InterruptedException {
+        for (char c: whatever.toCharArray()){
+            System.out.println(c);
+            unit.sleep(time_take);
+        }
     }
 }
+
