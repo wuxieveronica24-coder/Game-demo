@@ -9,7 +9,7 @@ public class Main{
         Scanner scanner = new Scanner(System.in);
 
         slow_print("loading .........",TimeUnit.MILLISECONDS, 100);
-        String long_mes = "Today you become an honorable officer at New Seattle Police Dapartment."
+        String long_mes = "Today you become an honorable officer at New Seattle State Police Dapartment.";
         slow_print(long_mes,TimeUnit.MILLISECONDS, 100);
         System.out.println("What is your name? Officer ");
         user_name = scanner.nextLine();
