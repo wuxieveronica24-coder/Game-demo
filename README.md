@@ -7,10 +7,7 @@ Story by Purely Fictional
 
 
 
-if you want to support us you could 
-
-
-
+# if you want to support us you could 
 
 buy a coffee:      https://buymeacoffee.com/purelyfictional
 
