@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.Scanner; 
 
 public class Main{
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception {
         String user_name;
         Scanner scanner = new Scanner(System.in);
         
@@ -18,7 +18,7 @@ public class Main{
 
 // complete with help from stack overflow 
 
-    public static void slow_print(String whatever, TimeUnit unit, long time_take){
+    public static void slow_print(String whatever, TimeUnit unit, long time_take) throws InterruptedException {
         for (char c: whatever.toCharArray()){
             System.out.println(c);
             unit.sleep(time_take);
