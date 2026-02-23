@@ -23,6 +23,7 @@ public class Main{
             System.out.print(c);
             unit.sleep(time_take);
         }
+        System.out.println("\n");
     }
 }
 
