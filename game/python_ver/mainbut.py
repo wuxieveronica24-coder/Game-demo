@@ -15,6 +15,6 @@ long_mes ="Today you become an honorable Officer serving for New Seattle State P
 slow_print(long_mes,0.05)
 
 user_name= input("What is your name? Officer\n")
-print("\nWelcome, Officer",user_name +".")
+print("\nWelcome, Officer",user_name + ".")
 
 
