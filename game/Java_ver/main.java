@@ -8,8 +8,8 @@ public class Main{
         String user_name;
         Scanner scanner = new Scanner(System.in);
 
-        slow_print("loading .........",TimeUnit.MILLISECONDS, 100);
-        String long_mes = "Today you become an honorable Officer serving for New Seattle State Police Dapartment and if you want to the people of New Seattle.";
+        slow_print("Loading .........",TimeUnit.MILLISECONDS, 100);
+        String long_mes = "Today you become an honorable Officer serving for New Seattle State Police Dapartment. If you want to, serving the people of New Seattle is also an option.";
         slow_print(long_mes,TimeUnit.MILLISECONDS, 50);
         System.out.println("What is your name? Officer ");
         user_name = scanner.nextLine();
@@ -18,7 +18,7 @@ public class Main{
 
     }
 
-// complete with help from stack overflow 
+// slow_print is complete with help from stack overflow 
 // intend to slow print on the same line 
     public static void slow_print(String whatever, TimeUnit unit, long time_take) throws InterruptedException {
         for (char c: whatever.toCharArray()){
